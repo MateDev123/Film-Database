@@ -1,8 +1,7 @@
 {
     "name": "galaxy",
     "compatibility_date": "2025-03-24",
-    "main": "src/index.html",
     "assets": {
-        "directory": "./dist"
+        "directory": "./"
     }
 }
