@@ -1,0 +1,77 @@
+
+.floating-menu {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #402662, #3900A6);
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+.floating-menu input {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.floating-menu input:checked ~ .plus-icon {
+  transform: rotate(135deg);
+}
+.floating-menu input:checked ~ .floating-nav li:nth-child(1) {
+  transform: translatey(-78px);
+}
+.floating-menu input:checked ~ .floating-nav li:nth-child(2) {
+  transform: translatey(-146px);
+}
+.floating-menu input ~ .plus-icon {
+  transform: rotate(0);
+}
+.floating-menu > .plus-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  font-size: 24px;
+  line-height: 1;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #402662, #3900A6);
+  border-radius: 50%;
+  transform: rotate(0);
+  transition: all 0.5s ease;
+  pointer-events: none;
+  position: absolute;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+.floating-menu > .floating-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.floating-menu > .floating-nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #402662, #3900A6);
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+.floating-menu > .floating-nav li span {
+  font-size: 14px;
+  line-height: 1;
+  color: #ffffff;
+}

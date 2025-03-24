@@ -1,0 +1,1071 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+position: relative;
+min-height: 100vh;
+overflow-x: hidden;
+z-index: 0;
+}
+
+.background {
+position: fixed;  /* absolute helyett fixed */
+top: -10%;
+left: -5%;  /* új tulajdonság */
+width: 110%;
+height: 150%;
+background-repeat: no-repeat;
+background-color: rgb(17, 17, 17);
+background-size: cover;
+background-position: center top;
+background-image: url(https://app.uizard.io/static/media/gradient.3320f49a3ca8d2391d02.png);
+filter: blur(10px);
+transform: scale(1.2);
+animation: 3s cubic-bezier(0.4, 0, 0.6, 1) 0s infinite normal none running background-1;
+z-index: -1;  /* új tulajdonság */
+}
+
+@keyframes background-1 {
+0%, 100% {
+transform: scale(1.7);
+}
+50% {
+transform: scale(1.2);
+}
+}
+.controls {
+max-width: 1290px;
+margin: 20px auto 20px auto;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.search-box {
+    flex-grow: 0.5;
+    min-width: 150px;
+}
+
+input, select, button {
+    padding: .75rem;
+    background-color: #ffffff0d;
+border-color: #ffffff1a;
+border-width: 1px;
+border-radius: .75rem;
+width: 100%;
+    color: #cbd5e0;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+/* Alap select elem testreszabása */
+select {
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+cursor: pointer;
+padding: .75rem;
+background-color: #ffffff0d;
+border-color: #ffffff1a;
+border-width: 1px;
+border-radius: .75rem;
+width: 100%;
+color: #cbd5e0;
+transition: all 0.2s ease;
+}
+
+/* Select nyitott állapotának testreszabása */
+select:focus {
+border-color: #6366F1;
+box-shadow: 0 0 4px rgba(99, 102, 241, 0.2);
+outline: none;
+}
+
+.form-group input:focus{
+border-color: #6366F1;
+box-shadow: 0 0 4px rgba(99, 102, 241, 0.2);
+outline: none;
+}
+.form-group select:focus {
+border-color: #6366F1;
+box-shadow: 0 0 4px rgba(99, 102, 241, 0.2);
+outline: none;
+}
+.form-group select option {
+background-color: #151522 !important;
+color: #cbd5e0 !important;
+padding: 12px !important;
+}
+
+
+/* Option elemek testreszabása */
+select option {
+background-color: #151522;
+color: #cbd5e0;
+padding: 12px;
+}
+
+/* Option elemek hover állapota */
+select option:hover {
+background-color: #1f1f2e;
+}
+
+/* Kiválasztott option testreszabása */
+select option:checked {
+background-color: #6366F1 !important;
+color: #cbd5e0 !important;
+}
+
+/* A legördülő lista háttérszíne és kerete */
+select::-ms-expand {
+display: none;
+}
+
+/* Webkit böngészőkre specifikus stílusok */
+select::-webkit-scrollbar {
+width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+background: #151522;
+}
+
+select::-webkit-scrollbar-thumb {
+background: #6366F1;
+border-radius: 4px;
+}
+
+select::-webkit-scrollbar-thumb:hover {
+background: #4f52c9;
+}
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: calc(100vh - 180px);
+}
+
+.movie-card {
+    width: 300px;
+    margin: auto;
+    background-color: #151522;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgba(3, 3, 3, 0.12) 0px 2px 12px, rgb(46, 46, 46) 0px 1px 0.5px inset;
+    transition: transform 0.3s;
+    position: relative;
+    border: #6366F1 solid 2px;
+    transition: all 0.3s ease;
+    flex-grow: 1;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+animation: glowPulsate 1.5s infinite alternate;
+box-shadow: 0 0 .2rem #4f52c9,
+0 0 .2rem #5f4ec7,
+0 0 2rem #6e4bc5,  /* Változtatva lilára */
+0 0 0.8rem #7847c4, /* Különböző lila árnyalatok */
+0 0 2.8rem #7f45c4,
+inset 0 0 1.3rem #8644c5;
+}
+
+@keyframes glowPulsate {
+0% {
+box-shadow: 0 0 .2rem #4f52c9,
+0 0 .2rem #5f4ec7,
+0 0 2rem #6e4bc5,  /* Változtatva lilára */
+0 0 0.8rem #7847c4, /* Különböző lila árnyalatok */
+0 0 2.8rem #7f45c4,
+inset 0 0 1.3rem #8644c5;
+}
+
+100% {
+box-shadow: 0 0 .2rem #4f52c9,
+0 0 .2rem #5f4ec7,
+0 0 2rem #6e4bc5,  /* Változtatva lilára */
+0 0 0.8rem #7847c4, /* Különböző lila árnyalatok */
+0 0 2.8rem #7f45c4,
+inset 0 0 1.3rem #8644c5;
+    }
+}
+.movie-image {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    -webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+.movie-info {
+    padding: 15px;
+}
+.movie-info h3 {
+    margin-bottom: 10px;
+    color: #F0F8FF;
+    font-size: clamp(11px, 2.6vw, 17px);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.2;
+    max-height: 2.4em; /* Maximum 2 sor magasság */
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+.movie-info p {
+    color: #F0F8FF;
+    margin: 5px 0;
+}
+
+.add-movie-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1A1A1A;
+}
+
+.hamburger-menu {
+position: absolute;
+bottom: 20px;
+right: 10px;
+background: linear-gradient(180deg, #402662, #3900A6);
+color: #F0F8FF;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+z-index: 2;
+padding: 0;
+}
+
+.hamburger-lines-container {
+width: 16px;
+height: 14px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+/* Alap vonalak stílusa */
+.hamburger-line {
+position: absolute;
+width: 16px;
+height: 2px;
+border-radius: 5px;
+background-color: #F0F8FF;
+transition: all 0.3s ease-in-out;
+}
+
+/* Vonalak alaphelyzetben */
+.hamburger-line:nth-child(1) {
+top: 0;
+}
+
+.hamburger-line:nth-child(2) {
+top: 6px;
+}
+
+.hamburger-line:nth-child(3) {
+top: 12px;
+}
+
+/* Aktív állapot animációk */
+.hamburger-menu.active .hamburger-line:nth-child(1) {
+top: 6px;
+transform: rotate(45deg);
+}
+
+.hamburger-menu.active .hamburger-line:nth-child(2) {
+opacity: 0;
+transform: translateX(-10px);
+}
+
+.hamburger-menu.active .hamburger-line:nth-child(3) {
+top: 6px;
+transform: rotate(-45deg);
+}
+
+.popup-menu {
+display: none;
+position: absolute;
+bottom: 55px;
+right: 10px;
+background: #151522;
+border-radius: 8px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.666);
+border: #6366F1 solid 2px;
+padding: 10px;
+z-index: 3;
+opacity: 0;
+transform: translateY(10px);
+transition: all 200ms ease;
+transform-origin: left center;
+}
+
+.popup-menu.active {
+display: block;
+opacity: 1;
+transform: translateY(0);
+}
+
+.popup-menu button {
+width: 100%;
+margin-bottom: 5px;
+text-align: left;
+background: none;
+color: #F0F8FF;
+border: none;
+padding: 5px 10px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.delete-button:hover {
+background-color: #f14343 !important;
+cursor: pointer;
+color: #F0F8FF;
+}
+
+.show-menu {
+display: block;
+}
+
+@media (max-width: 768px) {
+.controls {
+flex-direction: column;
+}
+
+.movies-grid {
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+}
+.movie-info p {
+display: flex;
+align-items: center; /* Igazítja az ikont és a szöveget középre */
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+.material-symbols-outlined {
+font-size: 28px; /* Igazíthatjuk az ikon méretét is, hogy illeszkedjen */
+}
+.material-symbols-outlined {
+color: #F0F8FF;
+}
+/* Pagination container styles */
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 20px;
+gap: 8px;
+padding: 0;
+opacity: 1;
+color: #D1D5DB;
+position: relative; /* Ez segít a pozicionálásban */
+bottom: 0; /* Ez biztosítja, hogy alul maradjon */
+}
+/* Pagination button styles */
+.pagination-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 60px;
+width: 60px;
+background-color: #ffffff0d;
+border: 1px solid #ffffff1a;
+border-radius: 0.75rem;
+color: #cbd5e0;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.pagination-btn:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pagination-btn:disabled {
+opacity: 0.5;
+cursor: not-allowed;
+}
+.pagination-btn:focus {
+outline: none;
+border: 1px solid #ffffff1a;
+border-radius: 0.75rem;
+}
+
+/* Icon styles */
+.pagination-icon {
+font-size: 24px;
+color: #F0F8FF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pagination-icon2 {
+font-size: 26px;
+color: #F0F8FF;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Page input container styles */
+.page-input-container {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px; /* Csökkentett gap a szorosabb elrendezéshez */
+color: #cbd5e0;
+height: 60px; /* Csökkentett magasság */
+padding: 0 8px;
+background-color: #ffffff0d;
+border: 1px solid #ffffff1a;
+border-radius: 0.75rem;
+position: relative;
+min-width: 80px; /* Minimális szélesség a tartalomhoz */
+}
+
+/* Current page input styles */
+#currentPageInput {
+width: 40px;
+height: 40px;
+background-color: transparent;
+border: none;
+color: #cbd5e0;
+font-size: 20px;
+text-align: center; /* A szám jobbra igazítása */
+padding-right: 0px; /* Kisebb jobboldali padding */
+margin: 0;
+}
+
+/* A / jel és a totalPages stílusa */
+.page-input-container {
+display: flex;
+align-items: center;
+gap: 4px; /* Kisebb rés az elemek között */
+white-space: nowrap;
+font-size: 20px;
+}
+.page-input-container input[type="number"] {
+width: 3rem; /* Alap szélesség */
+min-width: 3rem;
+padding: 2px 4px;
+text-align: center;
+}
+
+.page-input-container span {
+display: inline-block;
+margin: 0 2px;
+font-size: 20px;
+}
+
+/* Input fókusz állapot */
+#currentPageInput:focus {
+outline: none;
+border: none;
+}
+
+
+#totalPages {
+min-width: 2.5rem; /* Minimum szélesség a nagy számoknak */
+text-align: center;
+}
+/* Számok eltávolítása az input mezőről */
+#currentPageInput::-webkit-inner-spin-button,
+#currentPageInput::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+/* Eltávolítjuk az input mező nyilait */
+#currentPageInput::-webkit-inner-spin-button,
+#currentPageInput::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.search{
+background-color: #ffffff0d !important;
+border-color: #ffffff1a !important;
+border-width: 1px !important;
+border-radius: .75rem !important;
+width: 100% !important; 
+color: #cbd5e0 !important;
+transition: border 0.2s, box-shadow 0.2s !important;
+}
+.search::placeholder{
+color: #cbd5e0 !important;
+}
+.search-box {
+flex-grow: 1;
+min-width: 200px;
+position: relative;
+}
+.search-box .search:focus{
+border-color: #6366F1 !important;
+box-shadow: 0 0 4px rgba(99, 102, 241, 0.2) !important;
+}
+.search-box .search-icon {
+position: absolute;
+left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #cbd5e0;
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+.search-box input {
+    padding-left: 40px; /* Hely az ikonnak */
+}
+.movie-counter {
+position: relative; /* Hozzáadva, hogy a z-index működjön */
+background-color: #11182780;
+border: 1px solid #ffffff1a;
+border-radius: 1rem;
+overflow: hidden;
+color: #D1D5DB;
+transition: border 0.2s, box-shadow 0.2s;
+padding: 10px;
+min-width: 150px;
+min-height: 45px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 10;
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+.movie-counter-all {
+position: absolute; /* Hozzáadva, hogy a háttérként működjön */
+top: 0;
+left: 0;
+width: 100%; /* Megadja a méretet */
+height: 100%; /* Megadja a méretet */
+background-image: linear-gradient(to bottom right, #6366f1, #a855f7);
+opacity: 0.5; /* Kicsit átlátszóbb */
+z-index: -1; /* Így a szöveg fölé kerül, de a movie-counter mögé */
+}
+
+#totalMovies {
+color: rgb(129 140 248);
+}
+.movie-info h3.long-title {
+font-size: clamp(10px, 2.5vw, 15px) !important;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 100vh;
+    animation: zoomIn 0.3s ease-in-out;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    to {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close-button {
+position: absolute;
+top: 15px;
+right: 15px;
+width: 32px;
+height: 32px;
+cursor: pointer;
+z-index: 999999;
+border-radius: 50%;
+color: black;
+background-color: #e4e4e8;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+font-weight: bold;
+}
+.close-button2{
+position: absolute;
+top: 0px;
+right: -0px;
+width: 32px;
+height: 32px;
+cursor: pointer;
+z-index: 999999;
+border-radius: 50%;
+color: black;
+background-color: #e4e4e8;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+font-weight: bold;
+}
+.hamburger-add{
+    position: absolute;
+    left: 15px;
+width: 32px;
+height: 32px;
+font-size: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+/* Kurzor módosítása a film képekre */
+.movie-image {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
+.search-box .search:focus {
+outline: none;
+border-color: #6366F1 !important;
+box-shadow: 0 0 4px rgba(99, 102, 241, 0.2) !important;
+}
+#movieType option{
+background-color: #ffffff0d;
+border-color: #ffffff1a;
+border-width: 1px;
+border-radius: .75rem;
+width: 100%; 
+color: #cbd5e0;
+transition: border 0.2s, box-shadow 0.2s;
+}
+.gpopup-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+.gpopup {
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+max-width: 600px;
+border-radius: 1rem;
+overflow: visible; /* Changed from hidden to allow the background to show */
+z-index: 999;
+margin: 0;
+background-color: #100D20;
+text-align: center;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+padding: 20px;
+backdrop-filter: blur(24px);
+}
+.gpopup:hover{
+box-shadow: 0 4px 10px rgba(99, 102, 241, 0.1);
+}
+
+/* New styles for the second background */
+.gpopup::before {
+content: '';
+position: absolute;
+top: -10px;
+left: -10px;
+right: -10px;
+bottom: -10px;
+background-color: rgba(31, 41, 55, 0.30);
+border-radius: 1.5rem;
+z-index: -1; /* A gpopup mögé helyezi */
+backdrop-filter: blur(24px);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Keep the content properly positioned */
+.gpopup-content {
+position: relative;
+width: 100%;
+z-index: 1;
+}
+.gpopup-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.gpopup-header h2 {
+margin: 0;
+font-size: 22px;
+}
+
+.close-gpopup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #F0F8FF;
+}
+
+.form-group input,
+.form-group select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #ffffff0d;
+    border: 1px solid #ffffff1a;
+    color: #cbd5e0;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+#formTitle {
+    color: rgb(99, 102, 241);
+    background-image: linear-gradient(45deg, rgb(99, 102, 241) 10%, rgb(168, 85, 247) 93%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.gpopup-body {
+font-size: 6px;
+padding-top: 1px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.jsonupload{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+padding: 12px 16px;
+border-radius: 12px;
+background-color: rgba(99, 102, 241, 0.2);
+color: rgb(129, 140, 248);
+border: 1px dashed rgba(99, 102, 241, 0.5);
+transition: all 0.3s ease;
+cursor: pointer;
+}
+.jsonupload:hover{
+background-color: rgba(99, 102, 241, 0.3);
+border-color: rgb(99, 102, 241);
+}
+.jsonupload-icon{
+color: rgb(129 140 248)
+}
+.file-info {
+text-align: center;
+color: rgb(156, 163, 175);
+font-size: 14px;
+margin-top: 8px;
+}
+.jsondownload {
+position: relative;
+background-color: #030014;
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+color: #F0F8FF;
+font-size: 14px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.3s;
+padding: 12px 16px; /* Módosított padding az egyenlő magasságért */
+height: 48px; /* Explicit magasság megadása */
+}
+.jsondownload-wrapper {
+position: relative;
+width: 100%;
+}
+.jsondownload-background {
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background: linear-gradient(to right, #4f52c9, #8644c5);
+border-radius: 12px;
+opacity: 0.5;
+filter: blur(8px);
+transition: opacity 0.7s;
+}
+.jsondownload-wrapper:hover .jsondownload-background {
+opacity: 0.9;
+}
+.jsondownload-hover {
+position: absolute;
+inset: 0;
+transform: scaleX(0);
+background: linear-gradient(to right, rgba(79, 82, 201, 0.2), rgba(134, 68, 197, 0.2));
+transition: transform 0.5s;
+transform-origin: left;
+}
+.jsondownload-wrapper:hover .jsondownload-hover {
+transform: scaleX(1);
+}
+
+.image-preview-container {
+width: 100%;
+min-height: 200px;
+margin-bottom: 15px;
+border-radius: 8px;
+overflow: hidden;
+background-color: #ffffff0d;
+border: 2px dashed #ffffff1a;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+transition: all 0.3s ease;
+}
+
+.image-preview {
+max-width: 100%;
+width: auto;
+height: auto;
+display: none;
+object-fit: contain;
+}
+
+.preview-placeholder {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 8px;
+color: #cbd5e0;
+padding: 20px;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.preview-placeholder.error {
+flex-direction: row;
+gap: 12px;
+}
+
+.preview-placeholder.error .material-symbols-outlined {
+margin: 0;
+}
+
+.preview-placeholder p {
+margin: 0;
+display: flex;
+align-items: center;
+}
+
+.jsondownload-content {
+display: flex;
+align-items: center;
+gap: 8px;
+position: relative;
+z-index: 2;
+}
+/* Drag & Drop stílusok */
+.json-upload-zone {
+    width: 100%;
+    padding: 20px;
+    border: 2px dashed rgba(99, 102, 241, 0.5);
+    border-radius: 12px;
+    background-color: rgba(99, 102, 241, 0.1);
+    text-align: center;
+    color: #F0F8FF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+.json-upload-zone:hover{
+background-color: rgba(99, 102, 241, 0.3);
+border-color: rgb(99, 102, 241);
+}
+.json-upload-zone.dragover {
+    background-color: rgba(99, 102, 241, 0.2);
+    border-color: rgb(99, 102, 241);
+}
+
+.json-upload-icon {
+    font-size: 40px;
+    color: rgb(129, 140, 248);
+}
+.form-buttons {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.json-controls {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+}
+
+.json-controls .jsondownload,
+.json-controls .json-upload-zone {
+flex: 1;
+}
+
+.json-upload-zone {
+margin-top: 0 !important;
+}
+
+#addMovieBtn {
+width: 100%;
+margin-top: 20px;
+}
+.addmoviebtn {
+    position: relative;
+    background-color: #030014;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #F0F8FF;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    height: 48px;
+    padding: 12px 16px;
+}
+.addmoviebtn-wrapper {
+    position: relative;
+}
+.addmoviebtn-background {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(to right, #4f52c9, #8644c5);
+    border-radius: 12px;
+    opacity: 0.5;
+    filter: blur(8px);
+    transition: opacity 0.7s;
+}
+.addmoviebtn-wrapper:hover .addmoviebtn-background {
+    opacity: 0.9;
+}
+.addmoviebtn-hover {
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    background: linear-gradient(to right, rgba(79, 82, 201, 0.2), rgba(134, 68, 197, 0.2));
+    transition: transform 0.5s;
+    transform-origin: left;
+}
+.addmoviebtn-wrapper:hover .addmoviebtn-hover {
+    transform: scaleX(1);
+}
+.addmoviebtn-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    z-index: 2;
+    transition: gap 0.3s;
+}
+.addmoviebtn-icon{
+    position: static; /* relative helyett static */
+    left: auto; /* left tulajdonság eltávolítása */
+}
+.jsondownload-content, .addmoviebtn-content {
+height: 24px; /* Az ikonok konténerének explicit magassága */
+display: flex;
+align-items: center;
+gap: 8px;
+}
+.jsondownload-content .material-symbols-outlined,
+.addmoviebtn-content .material-symbols-outlined {
+font-size: 24px;
+}
