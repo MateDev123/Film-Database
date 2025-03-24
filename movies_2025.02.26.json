@@ -1,0 +1,548 @@
+[
+    {
+        "name": "Aquaman és az elveszett királyság",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vCK1W5IE1bwOBnw2fTDltg3UJh3.jpg"
+    },
+    {
+        "name": "Fegyvernepper",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8qvH0xemBr56HGZQzXm9tfxNqjK.jpg"
+    },
+    {
+        "name": "A bűn éjszakája",
+        "type": "Thriller",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nb0DONwVUynXfQumAmwkGdapSKL.jpg"
+    },
+    {
+        "name": "A megtisztulás éjszakája: Választási év",
+        "type": "Thriller",
+        "quality": "720p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8mf46f8mwnIKWtDVImCJOiNyKZM.jpg"
+    },
+    {
+        "name": "A megtisztulás éjszakája: A sziget",
+        "type": "Thriller",
+        "quality": "720p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sWBh6UeZhfPMnsNuLPB3GGSRABl.jpg"
+    },
+    {
+        "name": "Megtisztulás éjjel-nappal",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ytF4JP9e3i8Hvdea6MtroIhmLib.jpg"
+    },
+    {
+        "name": "A megtisztulás éjszakája: Anarchia",
+        "type": "Thriller",
+        "quality": "720p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/k7VYUFGsHHJVPjV2ZI9aZJdfnu4.jpg"
+    },
+    {
+        "name": "Vissza a jövőbe",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uFOjr5Z8Zznnr084etsXiuM5eXM.jpg"
+    },
+    {
+        "name": "Vissza a jövőbe II.",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ab8MItH4dIBFfHk4ODKyI6fZR91.jpg"
+    },
+    {
+        "name": "Vissza a jövőbe III.",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sWhSVkNyhmHoAVhp68Zgo1YEWUJ.jpg"
+    },
+    {
+        "name": "Imádlak utálni",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bTZx7eBwXaXPogJiPOqg7KShzmT.jpg"
+    },
+    {
+        "name": "Szupercella",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gdkfUvtGnlI1mwaOlpQrP7R27QJ.jpg"
+    },
+    {
+        "name": "Szupercella 2: Hades",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aFrIS73ysIS4pJ9uyHU8UkTuncY.jpg"
+    },
+    {
+        "name": "Reszkessetek, betörők!",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ZQChkguaa4Wi8RxqP1zuPs5Y5q.jpg"
+    },
+    {
+        "name": "Reszkessetek, betörők! 2. – Elveszve New Yorkban",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/60brygN5qFxgU8dpljHWEnNVCYP.jpg"
+    },
+    {
+        "name": "Reszkessetek, betörők! 3.",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ur5W6KmVp30QS8l6ypaQPiBBcfG.jpg"
+    },
+    {
+        "name": "A szupercsapat",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/n3P5xT1FBwmdTWY4szTgCUfxfkF.jpg"
+    },
+    {
+        "name": "Napóleon",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bcfkeMyWZd8Wqu45SVwNJIb38Pt.jpg"
+    },
+    {
+        "name": "Kavarás",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lpUTBaJx7S2HCtMFBUQimCHgalF.jpg"
+    },
+    {
+        "name": "2012",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fex1XsepLYB65mB2qrTs1VecIzj.jpg"
+    },
+    {
+        "name": "Oppenheimer",
+        "type": "Dráma",
+        "quality": "4k+",
+        "image": "https://image.tmdb.org/t/p/original/89fbqq5nnnzroLpD13T4TJ55Llf.jpg"
+    },
+    {
+        "name": "Blokád",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/znufhpkpZ6FKra5V4eK4hiQKfvT.jpg"
+    },
+    {
+        "name": "A Wall Street farkasa",
+        "type": "Dráma",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oQ72zesUJCCICtYoFgJiGyHtFlY.jpg"
+    },
+    {
+        "name": "Terhes társaság",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vNilGFlf7m8ZnQy1iWcQv8vtYRX.jpg"
+    },
+    {
+        "name": "Meg 2. - Az árok",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eE8jl6frI7B5PU9WlrnUl9kzfhU.jpg"
+    },
+    {
+        "name": "Barbie",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iy8BIZ2ApegBJ7WE2AAL63Wc7mF.jpg"
+    },
+    {
+        "name": "Halálos iramban 10",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qNAA54nU30jshNmvUGbeg0kCotX.jpg"
+    },
+    {
+        "name": "Barátnőt felveszünk",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4qEWrhjZe0vaJNwdICH3CnSt60q.jpg"
+    },
+    {
+        "name": "A szürke ötven árnyalata",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tzy3AvOkeUKfwRyLU6kxYG7jZrD.jpg"
+    },
+    {
+        "name": "Barry Seal: A beszállító",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ibPA6XccQLxENMGppJTvXIKXR1h.jpg"
+    },
+    {
+        "name": "Amerikai pite",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8vv91rul0o2N5T7QLejLukwiZow.jpg"
+    },
+    {
+        "name": "Amerikai pite 2.",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/618rE1qbCpbdchQ0olEfeKdpvm8.jpg"
+    },
+    {
+        "name": "Amerikai pite 3. – Az esküvő",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hlgjtJVlSAqr0m0KFwa7fT7MlQl.jpg"
+    },
+    {
+        "name": "Amerikai pite: A találkozó",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z0hSzI5I1VHqf0hQmOQETRAhS46.jpg"
+    },
+    {
+        "name": "Családi üzelmek",
+        "type": "Vígjáték",
+        "quality": "720p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3tmQHRshZd3vDLQ68DWcyVilIek.jpg"
+    },
+    {
+        "name": "Top Gun: Maverick",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tJCErs6CrSHWdqOaC1LprTmNA1O.jpg"
+    },
+    {
+        "name": "Katonák voltunk",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6Wsjavm7gBIdftxejNdjAWXEqrN.jpg"
+    },
+    {
+        "name": "Másnaposok",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/l7rhTdafUC19kzkzOpMtPxl0jOw.jpg"
+    },
+    {
+        "name": "Másnaposok 2.",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6Zz9jQT6NK676dLNQXb6qR6KpWZ.jpg"
+    },
+    {
+        "name": "Másnaposok 3.",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ttycpQ8g1EfD9WnO7BMeqrBwZJb.jpg"
+    },
+    {
+        "name": "Avatar: A víz útja",
+        "type": "Sci-fi",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xjD0iQdpzL3DI2S2zl3W0lv333I.jpg"
+    },
+    {
+        "name": "Lajkó – Cigány az űrben",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/a0RiQg6YjsGi6xNBHwIhlASnYsE.jpg"
+    },
+    {
+        "name": "Rakoncátlan célpont",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zIj74GX1SmfXhbU33H0mlxVgve0.jpg"
+    },
+    {
+        "name": "Bad Boys - Mire jók a rosszfiúk?",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xeLQM71SdBFXU1xnu8VD2tmsEjT.jpg"
+    },
+    {
+        "name": "Bad Boys 2. - Már megint a rosszfiúk",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vR11UNIYtFqTlF9M8d6W94zs0qG.jpg"
+    },
+    {
+        "name": "Bad Boys - Mindörökké rosszfiúk",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gzKqcVqHgys1KGR423Xc8q5SGtW.jpg"
+    },
+    {
+        "name": "Bad Boys - Mindent vagy többet",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/LIzDFah3AyGxCNSsjfN3K5gxi5.jpg"
+    },
+    {
+        "name": "Vaskabátok",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/50iTWPRoQluCcnqxNZSIyqDQ3Z9.jpg"
+    },
+    {
+        "name": "Hé, haver, hol a kocsim?",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hOmED3YdKuoVI9dsZECSxnHzl1r.jpg"
+    },
+    {
+        "name": "Amerikai mesterlövész",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wEAynbuOJsNoBI9OGrWLnVGFa4p.jpg"
+    },
+    {
+        "name": "Túlélni egy sorozatgyilkost: Kara Robinson története",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/o9hwOE1FeOelkNxfsGtTNrlWnyq.jpg"
+    },
+    {
+        "name": "Rendes fickók",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aIiplIJ36oD14U6U5iir2KbqKlD.jpg"
+    },
+    {
+        "name": "Twisters - Végzetes vihar",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/a80zStRu5Tcbvdf7DCkUbxtuJ2Y.jpg"
+    },
+    {
+        "name": "A diktátor",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kmvxnBogqKWtKJXxZbUhi2Q2a55.jpg"
+    },
+    {
+        "name": "Miénk a világ",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xMQ7mM0WiTL4H9yJJ8b3Y2uKkjX.jpg"
+    },
+    {
+        "name": "Holnapután",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5zuhavHQ7YCvbCpsE0MyL1rYR1B.jpg"
+    },
+    {
+        "name": "Vigyél a holdra",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ycSC8Tbr0iCGP1WEXLaVJMokoAt.jpg"
+    },
+    {
+        "name": "A Viszkis",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7bGuxNsheIzRdtLzYHQ4XvfOgU3.jpg"
+    },
+    {
+        "name": "A kaszkadőr",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vBPAyXEtnqiOnaUzBjgALh6lbxY.jpg"
+    },
+    {
+        "name": "A bérgyilkos, aki nem is volt",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3gCmNyckhEhR2CvCFzp4TvlHhmJ.jpg"
+    },
+    {
+        "name": "A feláldozhatók",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1XcpSontEgWfifqx0Eyp1enfgc1.jpg"
+    },
+    {
+        "name": "A feláldozhatók 2.",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/A8RJV1sPdtbQ5RcGnXCXjYN2tDU.jpg"
+    },
+    {
+        "name": "A feláldozhatók 3.",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dXlo3tQEMJQvMCUPG0XU2PpxIuv.jpg"
+    },
+    {
+        "name": "Feláldozh4tók",
+        "type": "Thriller",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/evTxCeAtwc18YBrjdHAzaMxZXkG.jpg"
+    },
+    {
+        "name": "Ted",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1QVZXQQHCEIj8lyUhdBYd2qOYtq.jpg"
+    },
+    {
+        "name": "Ted 2.",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uk8gK735dxA2eOxsEK4OT8ppJ3b.jpg"
+    },
+    {
+        "name": "Nagyfiúk",
+        "type": "Vígjáték",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iSYXhnqFmnsLLak0mIdneN4bwYQ.jpg"
+    },
+    {
+        "name": "Nagyfiúk 2",
+        "type": "Vígjáték",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6e7GjwSyYK4X8DmqNOjPEqsMKTH.jpg"
+    },
+    {
+        "name": "A Sólyom végveszélyben",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zA4mtf6sgBuF22BQp8ro2f5LxTQ.jpg"
+    },
+    {
+        "name": "Űrvihar",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/miM2mM0Ft9kRJGWDenClHGZvyyy.jpg"
+    },
+    {
+        "name": "Haverok fegyverben",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3AiFSy3lbcxxhzShaLzHF3SLotd.jpg"
+    },
+    {
+        "name": "Veszélyes külváros",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2jU6kQzIo9IiT1NJMtp9aKTj8I9.jpg"
+    },
+    {
+        "name": "Volt egyszer egy… Hollywood",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/adqhZZHcgYgmFpRVu6GS192NVPu.jpg"
+    },
+    {
+        "name": "A kukkolók",
+        "type": "Thriller",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/p5gaThQq2Nv5RMQ8HvyzrmrSh4X.jpg"
+    },
+    {
+        "name": "A hullahó-akció",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dKSwjhRemOYbUn1qV5KqyFSZyaB.jpg"
+    },
+    {
+        "name": "1917",
+        "type": "Thriller",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hktsjxE1F6myI1PZVTor0QZgrat.jpg"
+    },
+    {
+        "name": "Tapló télapó 2.",
+        "type": "Vígjáték",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2Gl6SagHe9EGiulKLoOvyyk8MbE.jpg"
+    },
+    {
+        "name": "Avicii – Az utolsó koncertem",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c44zM4fWJ55ImcEnqf7UL4dsCSB.jpg"
+    },
+    {
+        "name": "Taxi",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wMzc6aUdq4hnWOiozTaUKTVHe1t.jpg"
+    },
+    {
+        "name": "Taxi 2.",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rfVlfTWRvpgnW7EcZOTwBUGRMJr.jpg"
+    },
+    {
+        "name": "Taxi 3.",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bCe3Mq2I2ZbkZPcd7SxByfLwzXh.jpg"
+    },
+    {
+        "name": "T4XI",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kH7wtZeqEoj7XTefQTIsUgcIcP7.jpg"
+    },
+    {
+        "name": "Top Gun",
+        "type": "Akció",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7iPMNktqwn0BaApeXbNVNxNu31g.jpg"
+    },
+    {
+        "name": "A szabadság ára",
+        "type": "Akció",
+        "quality": "720p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jZRs7TEwsPnNMKGJs312uAg2lyo.jpg"
+    },
+    {
+        "name": "Titanic",
+        "type": "Dráma",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg"
+    },
+    {
+        "name": "Csillagok között",
+        "type": "Sci-fi",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6KiSSndIMLj1swkpPNq2lYppDVQ.jpg"
+    },
+    {
+        "name": "Mélytengeri pokol",
+        "type": "Dráma",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fhs5wjvZVPajCXOg88IEuxqv7iE.jpg"
+    },
+    {
+        "name": "21 - Las Vegas ostroma",
+        "type": "Dráma",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7PsYVQpPyTIvvT52YIwdwAr60Rt.jpg"
+    },
+    {
+        "name": "Égi szolgálat",
+        "type": "Dráma",
+        "quality": "4k+",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/48d6n5wPSOn8U8JxG2Bnd5YvNBT.jpg"
+    },
+    {
+        "name": "Lopott idő",
+        "type": "Akció",
+        "quality": "1080p",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eGpsQbrKF4EiShutBYHulon7ZXW.jpg"
+    },
+    {
+        "name": "Tyler Rake: A kimenekítés 2.",
+        "type": "Akció",
+        "quality": "4k",
+        "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mk7B4kP3UtzBKZ1Cw6tTlaNrDqV.jpg"
+    }
+]
